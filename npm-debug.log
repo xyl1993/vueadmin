@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle element-starter@~prestart: element-starter@
+6 silly lifecycle element-starter@~prestart: no script for prestart, continuing
+7 info lifecycle element-starter@~start: element-starter@
+8 verbose lifecycle element-starter@~start: unsafe-perm in lifecycle true
+9 verbose lifecycle element-starter@~start: PATH: D:\nodejs\node_modules\npm\bin\node-gyp-bin;D:\svnwork2\sweiter\inspection\VueAdmin\node_modules\.bin;D:\androidSDK\sdk\tools;D:\androidSDK\sdk\platform-tools;C:\Python27\;C:\Python27\Scripts;C:\MinGW\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Apple\Mobile Device Support;C:\Program Files (x86)\Common Files\Apple\Apple Application Support;D:\Program Files (x86)\ThinkSky\iTools;C:\Program Files\ImageMagick-7.0.2-Q16;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files\Java\jdk1.8.0_121\bin;D:\Android\android-sdk-windows\platform-tools;D:\Android\android-sdk-windows\tools;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.2.5\bin;C:\Program Files\TortoiseGit\bin;D:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;D:\Program Files (x86)\Git\cmd;D:\Dll&Lib;D:\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\曹鹏\AppData\Roaming\npm
+10 verbose lifecycle element-starter@~start: CWD: D:\svnwork2\sweiter\inspection\VueAdmin
+11 silly lifecycle element-starter@~start: Args: [ '/d /s /c',
+11 silly lifecycle   'webpack-dev-server --inline --config ./webpack.dev.config.js' ]
+12 silly lifecycle element-starter@~start: Returned: code: 3221225786  signal: null
+13 info lifecycle element-starter@~start: Failed to exec start script
+14 verbose stack Error: element-starter@ start: `webpack-dev-server --inline --config ./webpack.dev.config.js`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (D:\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid element-starter@
+16 verbose cwd D:\svnwork2\sweiter\inspection\VueAdmin
+17 error Windows_NT 6.1.7601
+18 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v6.10.0
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error element-starter@ start: `webpack-dev-server --inline --config ./webpack.dev.config.js`
+22 error Exit status 3221225786
+23 error Failed at the element-starter@ start script 'webpack-dev-server --inline --config ./webpack.dev.config.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the element-starter package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --inline --config ./webpack.dev.config.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs element-starter
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls element-starter
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

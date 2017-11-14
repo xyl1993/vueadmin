@@ -1,0 +1,25 @@
+@import '../../../assets/common/styles.scss';
+.container {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    .main {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        bottom: 0px;
+        overflow: hidden;
+        .content-container {
+            flex:1;
+            overflow-y: scroll;
+            padding: 20px;
+            
+            .content-wrapper {
+                width: 100%;
+                background-color: #fff;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
