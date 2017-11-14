@@ -6,4 +6,3 @@
 # utils>api中为ajax请求通用配置
 # 修改webpack.dev.config中的devProxyPath（本机ip,调用本地接口）与 buildProxyPath（调用外网接口）注意看devServer配置（省得麻烦写了两个变量）
 ------
-# 界面尚未完善，结构初步成型
